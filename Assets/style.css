@@ -59,6 +59,15 @@ li a{
     align-items: flex-end;
 }
 
+.banner img{
+    position:absolute;
+}
+
+.banner-text{
+    /* position:absolute; */
+    z-index: 2;
+}
+
 /* About Me section */
 /* .about{
     
