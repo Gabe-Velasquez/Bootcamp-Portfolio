@@ -1,6 +1,8 @@
 :root{
     --dark: #bbbf86;
     --light: #f7eff6;
+    --darkFill: #61768d;
+    --hoverColor: #40159e; 
     font-family: 'Raleway', serif;
 }
 
@@ -9,10 +11,21 @@ body{
     background-color: var(--dark);
     color: var(--light);
 }
+section{
+    border-style:groove;
+    margin: 2% 6%;
+    padding: 3%;
+    background-color: var(--darkFill);
+}
+
+li:hover{
+    color: var(--hoverColor);
+}
+
+/* header section */
 header{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 header h1{
@@ -23,28 +36,6 @@ header ul{
     position: absolute;
     right: 0;
 }
-
-.about{
-    padding: 3%;
-}
-
-.about img{
-    height: 400px;
-    border-radius: 15px;
-}
-
-.banner{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-section{
-    border-style:groove;
-    margin: 2% 6%;
-}
-
 li{
     list-style-type: none;
     display: flex;
@@ -59,3 +50,31 @@ li a{
     cursor: pointer;
     text-decoration: none;
 }
+
+/* Banner section */
+.banner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* About Me section */
+/* .about{
+    
+} */
+
+.about img{
+    height: 400px;
+    border-radius: 15px;
+}
+
+/* Projects Section */
+.projects img{
+    opacity: 0.5;
+}
+.projects img:hover{
+    opacity: 1;
+}
+
+/* Contact Me Section */
