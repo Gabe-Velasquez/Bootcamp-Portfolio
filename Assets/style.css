@@ -6,6 +6,10 @@
     font-family: 'Raleway', serif;
 }
 
+a:-webkit-any-link{
+    color: var(--light);
+}
+
 body{
     margin: 3%;
     background-color: var(--dark);
@@ -18,8 +22,13 @@ section{
     background-color: var(--darkFill);
 }
 
-li:hover{
+.projects ul li:hover{
     color: var(--hoverColor);
+
+}
+
+.projects img{
+    width:400px;
 }
 
 /* header section */
@@ -81,9 +90,39 @@ li a{
 /* Projects Section */
 .projects img{
     opacity: 0.5;
+    filter:blur(10px) contrast(60%);
+    
 }
 .projects img:hover{
     opacity: 1;
+    filter:blur(0) contrast(100%) brightness(100%);
 }
 
 /* Contact Me Section */
+
+.contact {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.contact h3{
+    display:inline-block;
+}
+
+.fa-twitter:hover{
+    color: #38a1f3;
+}
+
+.fa-github:hover{
+    color: #171515;
+}
+
+.fa-medium:hover{
+    color: black;
+}
+
+.fa-LinkedIn:hover{
+    color: #0A66C2;
+}

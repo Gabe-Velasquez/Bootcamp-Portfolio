@@ -11,6 +11,6 @@ Live deployed is location at https://gabe-velasquez.github.io/Bootcamp-Portfolio
 If you are new to coding or need inspiration on how to showcase your work to people, feel free to use my portfolio as a guide. 
 
 ## Credits 
-
+Used www.fontawesome.com to retrieve social media icons listed in the contact me section. 
 ## License
 Please refer to the LICENSE in the repo.
