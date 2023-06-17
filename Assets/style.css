@@ -91,7 +91,7 @@ li a{
 .projects img{
     opacity: 0.5;
     filter:blur(10px) contrast(60%);
-    
+    border-radius: 30px;
 }
 .projects img:hover{
     opacity: 1;
