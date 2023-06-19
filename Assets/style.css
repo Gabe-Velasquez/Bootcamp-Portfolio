@@ -10,6 +10,10 @@ a:-webkit-any-link{
     color: var(--light);
 }
 
+a:hover{
+    color: var(--hoverColor);
+}
+
 body{
     margin: 3%;
     background-color: var(--dark);
@@ -27,10 +31,6 @@ section{
 
 }
 
-.projects img{
-    width:100%;
-}
-
 
 /* header section */
 header{
@@ -40,15 +40,17 @@ header{
 
 header h1{
     align-content: center;
+    font-weight: 900;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
 }
 
 header ul{
     position: absolute;
     right: 0;
-}
-
-.header a:hover{
-    color: var(--hoverColor);
 }
 
 li{
@@ -103,17 +105,38 @@ li a{
     opacity: 0.5;
     filter:blur(10px) contrast(60%);
     border-radius: 30px;
+    width:100%;
 }
 .projects img:hover{
     opacity: 1;
     filter:blur(0) contrast(100%) brightness(100%);
 }
 
-.projects div{
+.project-main img{
+    width: 100%;
+}
+
+.project-minor img{
+    width: 30%;
+}
+
+.project-minor img{
+    width: 50%;
+}
+
+.project-name{
+    text-align: center;
+}
+
+/* .projects div{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 3%;
+} */
+
+.minor-projects{
+    display: flex;
 }
 
 div .project-links{
@@ -143,7 +166,7 @@ div .project-links{
 
 
 .fa-google:hover{
-    color: #DB4437 ;
+    color: #4285F4 ;
 }
 
 .fa-github:hover{
@@ -156,4 +179,11 @@ div .project-links{
 
 .fa-LinkedIn:hover{
     color: #0A66C2;
+}
+
+@media screen and (max-width: 768px) {
+    header ul{
+        display: flex;
+        flex-direction: column;
+    }
 }

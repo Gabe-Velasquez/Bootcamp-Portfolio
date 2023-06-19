@@ -1,119 +1,210 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://kit.fontawesome.com/9cdc820f3d.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="./Assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/9cdc820f3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Gabe Velasquez Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header goes here-->
     <header class="header">
-        <!-- Name -->
-        <h1>Gabe Velasquez</h1>
+      <!-- Name -->
+      <h1>Gabe Velasquez</h1>
 
-        <!-- Sections  -->
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+      <!-- Sections  -->
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
     </header>
 
     <!-- Hero goes here -->
     <div class="banner">
-        <img src="./Assets/images/portfolio-cover.avif" alt="laptop filled with unlimited possibilities">
-        <h2 class="banner-text">Dare to Explore</h2>
+      <img
+        src="./Assets/images/portfolio-cover.avif"
+        alt="laptop filled with unlimited possibilities"
+      />
+      <h2 class="banner-text">Dare to Explore</h2>
     </div>
 
     <!-- About Me Section -->
     <section class="about" id="about">
-        <h3>About Me</h3>
-        <div class="about-inner">
-            <div><img src="./Assets/images/IMG_1076.jpg" alt="A picture of me">
-            </div>
-            <div><p>My name is Gabe and I am a web developer based out of Seattle at this current moment. I love having the ability to be creative to solve problems and enjoy collaborating with others to overcome obstacles. I have a background in team management and innovation in processes. My goal in any professional setting is to improve the process and giving my team tools to be successful. Communication, documentation and execution are the three biggest keys for that to happen. 
-                When you can find me away from my computer, I am usually outdoors with my family from taking my dogs to the park or attending hockey games. Continuous learner to adapt in a field of evolving technologies and industry changes.</p>
-            </div>
+      <h3>About Me</h3>
+      <div class="about-inner">
+        <div>
+          <img src="./Assets/images/IMG_1076.jpg" alt="A picture of me" />
         </div>
-        </section>
+        <div>
+          <p>
+            My name is Gabe and I am a web developer based out of Seattle at
+            this current moment. I love having the ability to be creative to
+            solve problems and enjoy collaborating with others to overcome
+            obstacles. I have a background in team management and innovation in
+            processes. My goal in any professional setting is to improve the
+            process and giving my team tools to be successful. Communication,
+            documentation and execution are the three biggest keys for that to
+            happen. When you can find me away from my computer, I am usually
+            outdoors with my family from taking my dogs to the park or attending
+            hockey games. Continuous learner to adapt in a field of evolving
+            technologies and industry changes.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- Projects Section -->
     <section class="projects" id="projects">
-        <h3>Projects</h3>
-        <!-- Project 1, Face Detection Application -->
-        <div class="project-1" id="project-1">
-            <h4 class="project-name">Face Recognition </h4>
-            <img src="./Assets/images/Face-Detection-App.png" alt="screenshot of my face detection app">
-                <p class="project-description">I built an application that allows users to pass an image to an application platform interface (API) and able to send back results of coordinates of people's faces. The image is sent back and displayed for the user with their submitted picture. I also integrated a sign in and register function for user security of the application. The technologies that were used to build this project was React, Node, Postgres and used Render.com to host application.
-                </p>
-                <p class="project-links">Live Deploy: <a href="https://face-recognition-front-end-ws1v.onrender.com/">Here</a> | Source Code: <a href="https://github.com/Gabe-Velasquez/FaceRecognitionApp">Here</a>
-                </p>
-        </div>
-        <hr>
+      <h3>Projects</h3>
+      <!-- Project 1, Face Detection Application -->
+      <div class="project-main" id="project-1">
+        <h4 class="project-name">Face Recognition</h4>
+        <a
+          href="https://face-recognition-front-end-ws1v.onrender.com/"
+          target="_blank"
+        >
+          <img
+            src="./Assets/images/Face-Detection-App.png"
+            alt="screenshot of my face detection app"
+          />
+        </a>
+        <p class="project-description">
+          I built an application that allows users to pass an image to an
+          application platform interface (API) and able to send back results of
+          coordinates of people's faces. The image is sent back and displayed
+          for the user with their submitted picture. I also integrated a sign in
+          and register function for user security of the application. The
+          technologies that were used to build this project was React, Node,
+          Postgres and used Render.com to host application.
+        </p>
+        <p class="project-links">
+          Live Deploy:
+          <a href="https://face-recognition-front-end-ws1v.onrender.com/"
+            >Here</a
+          >
+          | Source Code:
+          <a href="https://github.com/Gabe-Velasquez/FaceRecognitionApp"
+            >Here</a
+          >
+        </p>
+      </div>
+      <hr />
+      <div class="minor-projects">
         <!-- Project 2, Quote Generator -->
-        <div class="project-2" id="project-2">
-            <h4 class="project-name">Quote Generator </h4>
-            <img src="./Assets/images/Quote-Generator.png" alt="Screenshot of my quote generator project">
-            <p class="project-description">I built an application that allows users to pass an image to an application platform interface (API) and able to send back results of coordinates of people's faces. The image is sent back and displayed for the user with their submitted picture. I also integrated a sign in and register function for user security of the application. The technologies that were used to build this project was React, Node, Postgres and used Render.com to host application.
-            </p>
-            <p class="project-links">Live Deploy: <a href="https://gabe-velasquez.github.io/Quote-Generator/">Here</a> | Source Code: <a href="https://github.com/Gabe-Velasquez/Quote-Generator">Here</a></p>
+        <div class="project-m" id="project-2">
+          <h4 class="project-name">Quote Generator</h4>
+          <a
+            href="https://gabe-velasquez.github.io/Quote-Generator/"
+            target="_blank"
+          >
+            <img
+              src="./Assets/images/Quote-Generator.png"
+              alt="Screenshot of my quote generator project"
+            />
+          </a>
+          <p class="project-description"></p>
+          <p class="project-links">
+            Live Deploy:
+            <a href="https://gabe-velasquez.github.io/Quote-Generator/">Here</a>
+            | Source Code:
+            <a href="https://github.com/Gabe-Velasquez/Quote-Generator">Here</a>
+          </p>
         </div>
-        <hr>
+        <hr />
         <!-- Project 3, Shopping List  -->
-        <div class="project-3" id="project-3">
-            <h4 class="project-name">Shopping List Project</h4>
-            <img src="./Assets/images/Shopping-List.png">
-            <p class="project-description">I built an application that allows users to pass an image to an application platform interface (API) and able to send back results of coordinates of people's faces. The image is sent back and displayed for the user with their submitted picture. I also integrated a sign in and register function for user security of the application. The technologies that were used to build this project was React, Node, Postgres and used Render.com to host application.
-            </p>
-            <p class="project-links">Live Deploy: <a href="https://gabe-velasquez.github.io/Shopping-List/">Here</a> | Source Code: <a href="https://github.com/Gabe-Velasquez/Shopping-List">Here</a></p>
+        <div class="project-m" id="project-3">
+          <h4 class="project-name">Shopping List Project</h4>
+          <a
+            href="https://gabe-velasquez.github.io/Shopping-List/"
+            target="_blank"
+          >
+            <img
+              src="./Assets/images/Shopping-List.png"
+              alt="Screenshot of my shopping list application"
+            />
+          </a>
+          <p class="project-description"></p>
+          <p class="project-links">
+            Live Deploy:
+            <a href="https://gabe-velasquez.github.io/Shopping-List/">Here</a> |
+            Source Code:
+            <a href="https://github.com/Gabe-Velasquez/Shopping-List">Here</a>
+          </p>
         </div>
-        <hr>
+        <hr />
         <!-- Project 4, Infinite Scroll -->
-        <div class="project-4" id="project-4">
-            <h4 class="project-name">Infinite Scroll Project</h4>
-            <img src="./Assets/images/Infinite Scroll.gif">
-            <p class="project-description">I built an application that allows users to pass an image to an application platform interface (API) and able to send back results of coordinates of people's faces. The image is sent back and displayed for the user with their submitted picture. I also integrated a sign in and register function for user security of the application. The technologies that were used to build this project was React, Node, Postgres and used Render.com to host application.
-            </p>
-            <p class="project-links">Live Deploy: <a href="https://gabe-velasquez.github.io/Infinite-Photo-Reel-Project/">Here</a>  |  Source Code: <a href="https://github.com/Gabe-Velasquez/Infinite-Photo-Reel-Project">Here</a></p>
+        <div class="project-m" id="project-4">
+          <h4 class="project-name">Infinite Scroll Project</h4>
+          <a
+            href="https://gabe-velasquez.github.io/Infinite-Photo-Reel-Project/"
+            target="_blank"
+          >
+            <img
+              src="./Assets/images/Infinite Scroll.gif"
+              alt="Screenshot of my inifite scroll application with Unsplash api"
+            />
+          </a>
+          <p class="project-description"></p>
+          <p class="project-links">
+            Live Deploy:
+            <a
+              href="https://gabe-velasquez.github.io/Infinite-Photo-Reel-Project/"
+              >Here</a
+            >
+            | Source Code:
+            <a
+              href="https://github.com/Gabe-Velasquez/Infinite-Photo-Reel-Project"
+              >Here</a
+            >
+          </p>
         </div>
+      </div>
     </section>
-
 
     <!-- Contact Section -->
     <footer class="contact" id="contact">
-        <h3>Contact Me</h3>
-        <br>
-        <!-- Github -->
-        <a href="https://www.github.com/Gabe-Velasquez/" target="_blank">
-            <!-- icon -->
-            <i class="fa-brands fa-github fa-2xl"></i>
-        </a>
+      <h3>Contact Me</h3>
+      <br />
+      <!-- Github -->
+      <a href="https://www.github.com/Gabe-Velasquez/" target="_blank">
+        <!-- icon -->
+        <i class="fa-brands fa-github fa-2xl"></i>
+      </a>
 
-        <!-- Email  -->
-        <a href="mailto:gabriel.velasquez0116@gmail.com?subject=I found your portfolio and wanted to learn more" target="_blank">
-            <i class="fa-brands fa-google fa-2xl"></i>
-        </a>
+      <!-- Email  -->
+      <a
+        href="mailto:gabriel.velasquez0116@gmail.com?subject=I found your portfolio and wanted to learn more"
+        target="_blank"
+      >
+        <i class="fa-brands fa-google fa-2xl"></i>
+      </a>
 
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/gabriel-velasquez-/" target="_blank">
-            <!-- icon -->
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-        </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/gabriel-velasquez-/" target="_blank">
+        <!-- icon -->
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+      </a>
 
-        <!-- Medium -->
-        <a href="https://medium.com/@gabriel.velasquez0116" target="_blank">
-            <!-- icon -->
-            <i class="fa-brands fa-medium fa-2xl"></i>
-        </a>
+      <!-- Medium -->
+      <a href="https://medium.com/@gabriel.velasquez0116" target="_blank">
+        <!-- icon -->
+        <i class="fa-brands fa-medium fa-2xl"></i>
+      </a>
 
-        <!-- Twitter -->
-        <a href="https://twitter.com/G4b3_29" target="_blank">
-            <!-- icon -->
-            <i class="fa-brands fa-twitter fa-2xl"></i>
-        </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/G4b3_29" target="_blank">
+        <!-- icon -->
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+      </a>
     </footer>
-</body>
+  </body>
 </html>
