@@ -116,14 +116,6 @@ li a{
     width: 100%;
 }
 
-.project-minor img{
-    width: 30%;
-}
-
-.project-minor img{
-    width: 50%;
-}
-
 .project-name{
     text-align: center;
 }
@@ -137,6 +129,10 @@ li a{
 
 .minor-projects{
     display: flex;
+}
+
+.minor-projects > *{
+    flex-basis: 100%;
 }
 
 div .project-links{
