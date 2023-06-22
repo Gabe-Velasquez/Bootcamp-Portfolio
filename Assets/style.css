@@ -139,6 +139,7 @@ li a{
 
 div .project-links{
     text-align: center;
+    font-size: medium;
 }
 
 .projects p{
@@ -214,5 +215,13 @@ div .project-links{
 
     .projects p {
         line-height: 1;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .minor-projects{
+        display: flex;
+        flex-direction: column;
     }
 }
