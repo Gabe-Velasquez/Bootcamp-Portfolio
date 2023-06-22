@@ -1,7 +1,7 @@
 # Bootcamp-Portfolio
 
 ## Introduction
-During the coding bootcamp, students need a place to display the projects that they work on. The idea of the portfolio is so we can show employers our skills in a webpage. 
+During the coding bootcamp, students need a place to display the projects that they work on. The idea of the portfolio is so we can show employers our skills in a webpage. This is the first module of the bootcamp to focus on page responsiveness. 
 
 ## Installation
 No installation needed. Site is hosted on Github Pages.
@@ -12,5 +12,7 @@ If you are new to coding or need inspiration on how to showcase your work to peo
 
 ## Credits 
 Used www.fontawesome.com to retrieve social media icons listed in the contact me section. 
+Referenced w3schools.com when adding styling to media queries. 
+
 ## License
 Please refer to the LICENSE in the repo.
