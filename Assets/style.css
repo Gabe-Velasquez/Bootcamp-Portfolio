@@ -123,6 +123,10 @@ li a{
     width: 100%;
 }
 
+.project-description{
+    line-height: 2;
+}
+
 .minor-projects{
     display: flex;
     flex: 30%; 
@@ -140,10 +144,6 @@ li a{
 div .project-links{
     text-align: center;
     font-size: medium;
-}
-
-.projects p{
-    line-height: 2;
 }
 
 /* Contact Me Section */
@@ -183,6 +183,12 @@ div .project-links{
 
 /* Media Query Added when screen is less than 768 pixels */
 @media screen and (max-width: 768px) {
+    body{
+        margin: 3%;
+        background-color: var(--darkSmall);
+        color: var(--lightSmall);
+    }
+
     header ul{
         display: flex;
         flex-direction: column;
@@ -198,10 +204,12 @@ div .project-links{
         flex-direction: column;
     }
 
-    body{
-        margin: 3%;
-        background-color: var(--darkSmall);
-        color: var(--lightSmall);
+    .about-inner p{
+        line-height: 1;
+    }
+
+    .project-description{
+        line-height: 1;
     }
 
     .minor-projects{
@@ -213,19 +221,25 @@ div .project-links{
         width: 100;
     }
 
-    .projects p {
-        line-height: 1;
-    }
+   
 }
 
+/* Media Query when screen is smaller than 410px */
 @media screen and (max-width: 410px) {
 
+    body{
+        background-color: cadetblue;
+    }
     .banner img{
         height: 30%;
     }
 
     .about img{
         width: 100%;
+    }
+    
+    .about-inner{
+        line-height: 1;
     }
 
     .minor-projects{
