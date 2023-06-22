@@ -220,8 +220,20 @@ div .project-links{
 
 @media screen and (max-width: 410px) {
 
+    .banner img{
+        height: 30%;
+    }
+
+    .about img{
+        width: 100%;
+    }
+
     .minor-projects{
         display: flex;
         flex-direction: column;
+    }
+
+    div .project-links{
+        font-size: small;
     }
 }
