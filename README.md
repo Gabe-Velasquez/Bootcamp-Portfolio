@@ -12,7 +12,7 @@ If you are new to coding or need inspiration on how to showcase your work to peo
 
 ## Credits 
 Used www.fontawesome.com to retrieve social media icons listed in the contact me section. 
-Referenced w3schools.com when adding styling to media queries. 
+Referenced w3schools.com when adding styling to media queries to see how they worked with multiple queries added. 
 
 ## License
 Please refer to the LICENSE in the repo.
