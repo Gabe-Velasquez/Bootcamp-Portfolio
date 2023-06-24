@@ -5,6 +5,7 @@
     --lightLarge: #f7eff6;
     --darkFill: #61768d;
     --hoverColor: #40159e; 
+    /* Used google fonts here while having a backup font of serif  */
     font-family: 'Raleway', serif;
 }
 
@@ -159,6 +160,7 @@ div .project-links{
     display:inline-block;
 }
 
+/* Used official colors of logos when the mouse hovers over  */
 .fa-twitter:hover{
     color: #38a1f3;
 }
